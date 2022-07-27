@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Omkar Nitsure">
+        <meta name="description" content="Online Inventory Portal for issuing system of facilities">
+        <meta name="viewpoint" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="script.js" defer></script>
+        <title>PG Inventory Portal</title>
+        <link rel="icon" href="icon.png" type="image/x-icon">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div>
+            <h1 class="main_heading">Welocme to the Inventory Portal !!</h1>
+        </div>
+        
+
+        <ul class="tabs">
+            <li data-tab-target="#home" class="active tab">Home</li>
+            <li data-tab-target="#music_inventory" class="tab">Music Inventory</li>
+            <li data-tab-target="#sports_inventory" class="tab">Sports Inventory</li>
+            <li data-tab-target="#tech_inventory" class="tab">Tech Inventory</li>
+            <li data-tab-target="#newsletter_subscription" class="tab">Newsletter Subscription</li>
+            <li data-tab-target="#contact_us" class="tab">Contact Us</li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="home" data-tab-content class="active">
+                <h1 class="selected_tab">Home</h1>
+                <div class="testimonials">
+                    <h1 class="heading">Testimonials</h1>
+                    <p>1."Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p>-Ram Bhatt</p>
+                    <hr>
+                    <p>2."Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem."</p>
+                    <p>-Ameya Bagal</p>
+                    <hr>
+                    <p>3."But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure."</p>
+                    <p>-Arnav Pandit</p>
+                </div>
+            </div>
+            <div id="music_inventory" data-tab-content>
+                <h1 class="selected_tab">Music Inventory</h1>
+            </div>
+            <div id="sports_inventory" data-tab-content>
+                <h1 class="selected_tab">Sports Inventory</h1>
+            </div>
+            <div id="tech_inventory" data-tab-content>
+                <h1 class="selected_tab">Tech Inventory</h1>
+            </div>
+            <div id="newsletter_subscription" data-tab-content>
+                <h1 class="selected_tab">Newsletter Subscription</h1>
+                <form action="newsletter.html" method="GET" class="login">
+                    <h2>Login for subscription form</h2>
+                    <p>
+                        <label>Username : <input type = "text" required/></label>
+                    </p>
+                    <p>
+                        <label>Password : <input type = "password" required/></label>
+                    </p>
+                    <p>
+                        <button type="reset">Reset</button>
+                        <button type="submit">Submit</button>
+                    </p>                                                       
+                </form>
+            </div>
+            <div id="contact_us" data-tab-content>
+                <h1 class="selected_tab">Contact Us</h1>
+            </div>
+        </div>
+
+    </body>
+</html>

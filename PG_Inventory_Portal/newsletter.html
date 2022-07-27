@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="author" content="Omkar Nitsure" />
+		<meta name="description" content="Form for newsletter subscription" />
+		<meta name="viewpoint" content="width=device-width,initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Subscription Form</title>
+		<link rel="icon" href="icon2.png" type="image/x-icon" />
+		<link rel="stylesheet" href="styles02.css" />
+	</head>
+	<body>
+		<h1>Newsletter Subscription Form</h1>
+		<hr/>
+		<form action="result.html" class="form">
+			<p>
+				<label>Name : <input type="text" required /></label>
+			</p>
+			<p>
+				<label>Email : <input type="email" required /></label>
+			</p>
+			<p>
+				<label>Phone No : <input type="text" required /></label>
+			</p>
+			<p>
+				<label>RoomNo : <input type="text" required /></label>
+			</p>
+			<p>
+				<label>ID card Pdf : <input type="file" required /></label>
+			</p>
+			<p>
+				<label>Topics that you are interested in : </label>
+				<select multiple>
+					<option value="Music">Music</option>
+					<option value="Sports">Sports</option>
+					<option value="Tech">Tech</option>
+				</select>
+			</p>
+			<p>
+				<label
+					>I allow Newsletter team to send me regular updates via email
+					<input type="checkbox"
+				/></label>
+			</p>
+            <p>
+                <button type="reset">Reset</button>
+                <button type="submit">Submit</button>
+            </p>
+		</form>
+	</body>
+</html>

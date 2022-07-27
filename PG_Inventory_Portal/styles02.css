@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(241, 241, 145);
+}
+
+h1{
+    color: crimson;
+    text-align: center;
+}
+
+h2{
+    color: blue;
+}
+
+.form{
+    border: 5px groove #28c9ac;
+    text-align: center;
+
+}
